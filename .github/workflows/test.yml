@@ -22,4 +22,5 @@ jobs:
     - name: Run tests
       run: |
         cd ./server/app/tests
+        source env/bin/activate
         pytest
